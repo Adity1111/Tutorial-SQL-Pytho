@@ -1,0 +1,173 @@
+Variables can store data of different types, and different types can do different things.
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:  	str                                 // x = "Hello World"
+Numeric Types:	int, float, complex         //x = 20     x = 20.5     x = 1j    eg  print(type(x))   o/p <class 'int'>
+Sequence Types:	list, tuple, range            // x = ["apple", "banana", "cherry"]    x = ("apple", "banana", "cherry")  x = range(6)
+Mapping Type:	dict                           //   x = {"name" : "John", "age" : 36}  
+Set Types:	                 set, frozenset                      //   x = {"apple", "banana", "cherry"} ,x = frozenset({"apple", "banana", "cherry"})
+Boolean Type:	bool                   //   x = True
+Binary Types:	bytes, bytearray, memoryview         //
+
+
+Curly braces create dictionaries or sets. Square brackets create lists. They are called literals; a set literal: 
+To create an empty set, you can only use set (). Sets are collections of unique elements and you cannot order them. 
+
+type of if statement in python
+
+
+if statement ->decision making is required to execute the code only if a certain condition is  satisfied
+1.
+if condition :   
+     Statement-Block                     
+Statement-X
+      n = int(input("Enter a number: "))
+       if n >0:
+          print("positive number")
+
+
+2.  simple if
+if condition :
+     Statement-Block1
+else:
+     Statement-Block2
+
+ n1 = int(input("Enter a number: "))
+n2 = int(input("Enter a number: "))
+if n1>n2 :
+     print("{0} is greatest number" .format(n1))
+        
+  else :
+ print("{0} is  greatest number".format(n2))
+
+3 nested if statement
+
+
+if condition1:
+     if condition2:
+          Statement-Block1
+     else:
+          Statement-Block2
+else:
+     if condition3:
+          Statement-Block3
+     else:
+          Statement-Block4
+
+booolean operator
+ result1 = True
+ res 2= False
+
+n =5
+print(n<19)
+
+different compression operator
+<  less than
+> greater than
+<= 
+>=
+==  equal
+!= not equal
+
+n=10
+print(n==10)   true
+
+logical operator
+ 
+and  true if both operands are true 
+or   true if either of the operands is true
+not   true if operands is false
+
+age=22
+gpa=3.8
+result = age>=18 and gpa>3.9   o/p = true
+print(result) 4
+
+'''In this program, 
+we check if the number is positive or
+negative or zero and 
+display an appropriate message'''
+
+num = 3.4
+
+# Try these two variations as well:
+# num = 0
+# num = -4.5
+
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+
+
+
+
+'''In this program, we input a number
+check if the number is positive or
+negative or zero and display
+an appropriate message
+This time we use nested if statement'''
+
+num = float(input("Enter a number: "))
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+
+
+
+while loop
+  while test_condition:
+         statement(s)
+ 
+count =0
+while count >5:
+        print("the number is ")
+      count--;
+
+
+a sequence in python is a collection of item in order
+
+for loop
+test ="python"
+for character in text:
+   print(character)
+
+
+for item in range(1,6):
+  print(item)
+  break
+create a program to find sum of number from 1 to 100
+
+
+
+
+
+pass statement 
+ suppose you want to use loop or decision making statement
+
+number =5.5
+
+if number > 0.0:
+  pass
+if you want to use or create loop function  if else statement and classes with empty body you can use pass 
+
+
+function ->A function is a group of related statements that performs a specific task.
+def function_name()  
+def greet():
+    print("Hello")
+    print("How do you do?")
+To create a function, we use the def keyword followed by the function name, parenthesis (), and a colon :. 
+The body of the function is specified using indentation. defining a function won't do anything. To bring the function into action, we need to call it.
+
+
+we pass two argument by function call to function add_number which are accepted by function defintion  as ni and n2. the sum of n1 and n2 is cal and result is returned to 
+the function call and this result is assigned to result variable and next line we just print result outside the add_number function.
+As we use the return statement is encountered the function terminated and control of the progrm is goes back from where function is called .  

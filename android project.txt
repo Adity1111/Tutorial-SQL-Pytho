@@ -1,0 +1,90 @@
+<uses-permission android:name=”android.permission.PERMISSION_NAME”/>
+
+<uses-permission android:name="android.permission.record/>
+public static final String BLUETOOTH
+Allows applications to connect to paired bluetooth devices. "android.permission.bluetooth"
+
+Allows applications to discover and pair bluetooth devices.   "android.permission.bluetooth admin"
+
+BLUETOOTH_CONNECT     to connect to paired bluetooth device
+
+BLUETOOTH_SCAN   Required to be able to discover and pair nearby Bluetooth devices. Protection level: dangerous
+
+ Depending on the LocationManager methods used,
+  ACCESS_COARSE_LOCATION permission is needed.  declare the ACCESS_COARSE_LOCATION permission if
+ yourapplication uses a network-based location provider only. 
+The more accurate GPS requires the ACCESS_FINE_LOCATION permission. 
+is the main class through which your application can access location services on Android
+ 
+build bundle ->build -> build apk
+if the permission is not granted//  ? how to request for the permission
+Represents the local device Bluetooth adapter. The BluetoothAdapter lets you perform fundamental Bluetooth tasks, 
+such as initiate device discovery, query a list of bonded (paired) devices, instantiate a BluetoothDevice using a known 
+MAC address, and create a BluetoothServerSocket to listen for connection requests from other devices, and start a scan for Bluetooth LE devices. 
+
+create your first application
+ ||   (p 2)
+challenges
+variable and arithmetic op
+relational and logical op
+loops
+challenges
+simple array
+oop (p 1)
+oop (p2)
+   ||   (p3) 
+oop challlenes
+collection in java
+static keyword
+interface and abstract class
+concurrency
+singleton pattern
+challenge (p 1)
+challenge(p 2)
+u i basics (p1)
+ui   (p2)
+   (p3)
+layout
+images
+listview 
+diff xml files(p1)
+      ||               (p2)
+material design 
+snackbar and cardview 
+recycler view(p1)
+||                (p2)
+     ||   (p3)
+fonts
+challenges (1)
+amd stands for android virtual device .package name is diff for every application.when u downloaded the application 
+the  application. name is identified by package name .
+app-> source->main->jav->MAIN ACTIVITY
+STRUCTURE OF ANDROID APPLICATION ////// GRADLE SCRIPT
+RES STAND RESOURCES FOLDER / ALL IMAGES are presenii gradle  scrippt
+build it will show how much project will be done.terminal
+view->toolswindow->profile
+there are  two view inside activity.xml one is design view and blueprintview.
+xml is markup lang. mrk up l is just used for defining some element the user is going to see
+java file related to xml file. findviewbyid() -> its the method used to find ui by giving the id from layout file.
+TextView txtHello = findViewById(R.id.txtMessage)
+
+
+variable and arithmetic in java
+print method is implemented as it prints the text on the console and the cursor remains at the end of the text at the console.
+print method works only with input parameter passed otherwise in case no argument is passed it throws syntax exception.
+println method works both with and without parameter and do not throw any type of exception.
+ide ->integrated development environment  
+android stdio is developed upon ide name as intellij
+
+and if both are true return true  .. or operator return true if any one of them is true
+https://www.knowprogram.com/java/unicode-character-set/
+string is a class while other are primitive dt in java. 
+
+
+
+if(a>3) 
+{
+system.out.println("a is greather");
+}
+system.out.println("continue");
+}

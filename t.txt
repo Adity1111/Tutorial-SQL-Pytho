@@ -1,0 +1,16 @@
+c c ++ database(sql)
+  java first level of java python(jango)  .net and cloud computing
+
+( Core Java is the part of Java programming language that is used for creating or developing a general-purpose application.
+OOP, data types, operators, functions, loops, exception handling, threading etc.   )
+
+Advanced Java is also a part of Java programming language that generally deals with online application like the 
+website and mobile application
+ An advanced java only deals with some specialization like Database, DOM(web)
+ It uses two tier architecture i.e. client side architecture and server side or backend architecture..
+Advance java is used for web based application and enterprise application.
+Java is a high level, robust, object-oriented and a secure and stable programming language
+ but it is not a pure object-oriented language because it supports primitive data types like int, char etc.
+Platform independent means a particular code can be run on different systems. JAVA is considered as platform independent because to run the java program on system, 
+we only need JVM(java virtual machine). 
+but in c/c++,we need complete software such as turbo c to run the program on system so called platform dependent.

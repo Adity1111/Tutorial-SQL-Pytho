@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    
+    <p>=========================================================</p>
+
+<p>Creating JS Object USING  Object Constructors</p>
+
+<p>=========================================================</p>
+
+<h2>Customer Details</h2>
+
+
+<p>=========================================================</p>
+
+
+
+<script>
+
+    console.log("Creating JS Object USING  Object Constructors");
+    console.log("=========================================================");
+
+    console.log("customer Details");
+    console.log("=========================================================");
+
+
+
+class GFG {
+    constructor(A, B,C ,D,E,F,G,H,I ,K,L) {
+  
+        // "this" refers to the address
+        // of the keys "g" and "f"
+        this.g = A;
+        this.f = B;
+        this.h=C;
+        this.i=D;
+        this.j=E;
+        this.k=F;
+        this.L=G;
+        this.m=H;
+        this.n=I;
+        this.o=K;
+        this.p=L;
+    }
+    showDetails() {
+        document.write("Customer id : "+this.g +"<br>");
+        console.log("Customer id : "+this.g );
+        document.write("Customer First name  : "+this.f +"<br>");
+        console.log("Customer First name  : "+this.f );
+
+
+        document.write("Customer Last name    : "+this.h +"<br>");
+        console.log ("Customer Last name    : "+this.h );
+
+        document.write("Customer Email    : "+this.i +"<br>");
+        console.log("Customer Email    : "+this.i );
+
+        document.write("Customer Mobile    : "+this.j +"<br>");
+        console.log("Customer Mobile    : "+this.j );
+
+        document.write("Customer Gender   : "+this.k +"<br>");
+        console.log("Customer Gender   : "+this.k );
+
+        document.write("Customer DOB   : "+this.L +"<br>");
+        console.log("Customer DOB   : "+this.L );
+
+        document.write("Customer Adrress  : "+this.m +"<br>");
+        console.log("Customer Adrress  : "+this.m );
+
+
+        document.write("Customer city  : "+this.n +"<br>");
+        console.log("Customer city  : "+this.n );
+
+
+        document.write("Customer state : "+this.o +"<br>");
+        console.log("Customer state : "+this.o );
+
+
+        document.write("Customer Country : "+this.p +"<br>");
+        console.log("Customer Country : "+this.p );
+
+
+
+
+        console.log("=========================================================");
+
+
+
+
+
+
+    }
+}
+  
+let gg = new GFG("101", "Pradeep"  ,"chincole" ,"pradeep.chinchole@gmail.com" ,"8073247844" ,"Male" ,"7-03-1999" ,"warje malwadi" ,"Pune" ,"Maharshtra" ,"India");
+  
+gg.showDetails();
+
+</script>
+
+<p>=========================================================</p>
+
+
+</body>
+</html>

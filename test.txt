@@ -1,0 +1,684 @@
+
+Student Id:	PCS202108312
+
+Time Left:	0:13
+Q1. The average of 15 observations is 20.Average of first 5is 16 and next 7 is 22.If 13th observation is 2 more than 14 and 14th observation is 2 more than 15th observation. Find the 15th observation
+
+
+ (A) 20
+
+ (B) 12
+
+ (C) 6
+
+ (D) 30
+
+(E) I am not attending this question
+
+Q2.
+
+What is the output of the following program?
+main(){
+
+int i =2;
+
+printf (\n %d %d "++i,++i);
+}
+
+
+ (A) 3 4
+
+ (B) 4 3
+
+ (C) 4 4
+
+ (D) none of the above
+
+(E) I am not attending this question
+
+Q3.
+
+What is the output of the program?
+typedef struct data;
+{
+int x;
+sdata *b;
+}sdata;
+
+
+ (A) Error: Declaration missing ';'
+
+ (B) Error: in typedef
+
+ (C) No error
+
+ (D) None of above
+
+(E) I am not attending this question
+
+Q4. A number whose one-fourth part is increased by 5 is equal to the third part diminished by 5.What is the number?
+
+
+ (A) 100
+
+ (B) 80
+
+ (C) 60
+
+ (D) 120
+
+(E) I am not attending this question
+
+Q5. In what time will a sum double itself at 8% per annum simple interest ?
+
+
+ (A) 12 yr
+
+ (B) 10 yr
+
+ (C) 12.5 yr
+
+ (D) 10.5 yr
+
+(E) I am not attending this question
+
+Q6. In a relational schema, each tuple is divided into fields called
+
+
+ (A) relational
+
+ (B) domains
+
+ (C) queries
+
+ (D) all of this
+
+(E) I am not attending this question
+
+Q7. The percentage increase in area of a rectangle, if each of its sides is increased by 25% is
+
+
+ (A) 25%
+
+ (B) 50%
+
+ (C) 54%
+
+ (D) 56.25%
+
+(E) I am not attending this question
+
+Q8. Pure milk costs Rs.20 per litre. After adding water the milkman sells the mixture at the rate of Rs.18 per litre,thereby making a profit of 25% .In What ratio does he mix the two?
+
+
+ (A) 18:7
+
+ (B) 18:5
+
+ (C) 12:7
+
+ (D) 12:5
+
+(E) I am not attending this question
+
+Q9. Sum of a fraction and thrice its reciprocal is 31/6.What is the fraction?
+
+
+ (A) 2/9
+
+ (B) 9/4
+
+ (C) 9/2
+
+ (D) 4/9
+
+(E) I am not attending this question
+
+Q10. To discard all pending data changes
+
+
+ (A) COMMIT
+
+ (B) ROLLBACK
+
+ (C) SAVEPOINT LOCK
+
+ (D) DISCHARGE
+
+(E) I am not attending this question
+
+Q11. Router operate in which layer of the OSI model?
+
+
+ (A) physical layer
+
+ (B) Data link layer
+
+ (C) Network layer
+
+ (D) none of the above
+
+(E) I am not attending this question
+
+Q12. An array can be passed in a function in C language through ?
+
+
+ (A) Call by value only
+
+ (B) Call by reference only
+
+ (C) Both a & b
+
+ (D) Call by preference
+
+(E) I am not attending this question
+
+Q13. Static variables are sometimes called
+
+
+ (A) Class variables
+
+ (B) functional variables
+
+ (C) dynamic variables
+
+ (D) auto variables
+
+(E) I am not attending this question
+
+Q14. The JDBC-ODBC bridge is
+
+
+ (A) Three tiered
+
+ (B) Multipread
+
+ (C) Best of any platform
+
+ (D) All of the above
+
+(E) I am not attending this question
+
+Q15. In SQL, which of the following is not a data definition language command ?
+
+
+ (A) RENAME
+
+ (B) REVOKE
+
+ (C) GRANT
+
+ (D) UPDATE
+
+(E) I am not attending this question
+
+Q16. Which of the following operating system is also known as single user operating system?
+
+
+ (A) Windows
+
+ (B) Linux
+
+ (C) Unix
+
+ (D) DOS
+
+(E) I am not attending this question
+
+Q17. Which of the following is useful in implementing quick sort?
+
+
+ (A) Stack
+
+ (B) Set
+
+ (C) List
+
+ (D) Queue
+
+(E) I am not attending this question
+
+Q18. If the number is divided by 3, it reduced by 34. The number is
+
+
+ (A) 51
+
+ (B) 50
+
+ (C) 45
+
+ (D) 40
+
+(E) I am not attending this question
+
+Q19. TRUNCATE statement in SQL is a
+
+
+ (A) DML STATEMENT
+
+ (B) DDL STATEMENT
+
+ (C) DSL STATEMENT
+
+ (D) DCL STATEMENT
+
+(E) I am not attending this question
+
+Q20. If 16^24 divided by 17 ,the remainder is
+
+
+ (A) 1
+
+ (B) 3
+
+ (C) 4
+
+ (D) 8
+
+(E) I am not attending this question
+
+Q21. Pointer is used in
+
+
+ (A) Direct addressing
+
+ (B) Indexed Addressing
+
+ (C) Indexed mode
+
+ (D) Immediate Addressing
+
+(E) I am not attending this question
+
+Q22. Queue can be used to implement ?
+
+
+ (A) radix sort
+
+ (B) quick sort
+
+ (C) recursion
+
+ (D) depth first search
+
+(E) I am not attending this question
+
+Q23. By default any real number in C is treated as
+
+
+ (A) a float
+
+ (B) a double
+
+ (C) a long double
+
+ (D) none of the above
+
+(E) I am not attending this question
+
+Q24. A train 250m long crosses a platform of equal length in 50s .Find the speed of the train
+
+
+ (A) 10m/s
+
+ (B) 15 m/s
+
+ (C) 25m/s
+
+ (D) 20m/s
+
+(E) I am not attending this question
+
+Q25. Please select the most effective word(s) from the given words to fill in the blank to make the sentence meaningfully complete. The words may seem similar or right but there is only one word that should be selected.In a little-publicized deal, Pepsi Cola has ...... the entire soft drink market in Afghanistan
+
+
+ (A) occupied
+
+ (B) conquered
+
+ (C) swallowed
+
+ (D) captured
+
+(E) I am not attending this question
+
+Q26. If the cost price of 12 articles to the selling price of 10 articles, then find the profit% in transaction.
+
+
+ (A) 15%
+
+ (B) 20%
+
+ (C) 25%
+
+ (D) Data insufficient
+
+(E) I am not attending this question
+
+Q27. A linear list in which elements can be added or removed at either end but not in middle is known as
+
+
+ (A) queue
+
+ (B) deque
+
+ (C) stack
+
+ (D) tree
+
+(E) I am not attending this question
+
+Q28. A sum of Rs.8000 was lent partly at 7% and partly at 9% simple interest. If total annual interest be Rs.620.The ration in which the money was lent at given rates is
+
+
+ (A) 5:3
+
+ (B) 1:4
+
+ (C) 2:3
+
+ (D) 3:4
+
+(E) I am not attending this question
+
+Q29. The feature in object oriented programming that allows the same operation to be carried out differently , depending on the object, is
+
+
+ (A) inheritance
+
+ (B) polymorphism
+
+ (C) overfunctioning
+
+ (D) overriding
+
+(E) I am not attending this question
+
+Q30. Find the unit digit in the product (4387)^245*(621)^72
+
+
+ (A) 1
+
+ (B) 7
+
+ (C) 2
+
+ (D) 8
+
+(E) I am not attending this question
+
+Q31. It is the first program run on a computer ,when the computer boots up
+
+
+ (A) System software
+
+ (B) operating System
+
+ (C) System operations
+
+ (D) processing system
+
+(E) I am not attending this question
+
+Q32. 8 men can complete a work in 14days.They started the work and after 2days 3 men left. In how many days will the work be completed by the remaining men?
+
+
+ (A) 12days
+
+ (B) 9 days
+
+ (C) 15 days
+
+ (D) none of these
+
+(E) I am not attending this question
+
+Q33. What is the synonyms of CANNY ?
+
+
+ (A) Obstinate
+
+ (B) Handsome
+
+ (C) Clever
+
+ (D) Stout
+
+(E) I am not attending this question
+
+Q34. A man rows 25 km downstream and 20 km upstream taking 5h each time .What is the velocity of the current ?
+
+
+ (A) 1km/h
+
+ (B) 2.5 km/h
+
+ (C) 3.5 km/h
+
+ (D) None of these
+
+(E) I am not attending this question
+
+Q35. Which step is taken first in designing a program?
+
+
+ (A) Data validation
+
+ (B) Input design
+
+ (C) Task analysis
+
+ (D) Problem identification
+
+(E) I am not attending this question
+
+Q36. The process of extracting the relevant attributes of an object is known as
+
+
+ (A) polymorphism
+
+ (B) Inheritance
+
+ (C) Abstraction
+
+ (D) data hiding
+
+(E) I am not attending this question
+
+Q37. An fruit vendor buys 30 oranges for Rs. 187.50 .At what price did he sell each orange to get a profit of 12%?
+
+
+ (A) Rs.7
+
+ (B) Rs.7.50
+
+ (C) Rs.8
+
+ (D) Rs.8.25
+
+(E) I am not attending this question
+
+Q38. Find the sum of the first 50 odd numbers.
+
+
+ (A) 1600
+
+ (B) 1900
+
+ (C) 2500
+
+ (D) 2900
+
+(E) I am not attending this question
+
+Q39. What will be the area of a semi-Circle whose perimeter is 66cm ?
+
+
+ (A) 693cm^2
+
+ (B) 646cm^2
+
+ (C) 521cm^2
+
+ (D) none of these
+
+(E) I am not attending this question
+
+Q40. Local variables
+
+
+ (A) are created outside a block
+
+ (B) are known only to that block
+
+ (C) Continue to exist when their block ends
+
+ (D) Are illegal in C++
+
+(E) I am not attending this question
+
+Q41. A person travels 120km in 6h, the next 130 km in 5h and next 200km in 4h.Find his average speed during the whole journey.
+
+
+ (A) 37km/h
+
+ (B) 30km/h
+
+ (C) 36km/h
+
+ (D) Cannot be determined
+
+(E) I am not attending this question
+
+Q42. If( 25% of x )= (40% of y), then x:y is equal to
+
+
+ (A) 5:7
+
+ (B) 8:7
+
+ (C) 8:5
+
+ (D) 8:9
+
+(E) I am not attending this question
+
+Q43. In SQL, which command is used to changes data in a data table?
+
+
+ (A) UPDATE
+
+ (B) INSERT
+
+ (C) BROWSE
+
+ (D) APPEND
+
+(E) I am not attending this question
+
+Q44. A and B complete a piece of work in 5 days working together.If A had worked twice as fast the work would have been completed in 4 days.In how many days can A alone complete the work ?
+
+
+ (A) 20 days
+
+ (B) 18 days
+
+ (C) 24 days
+
+ (D) 15 days
+
+(E) I am not attending this question
+
+Q45. When you omit parameters from a function call, value can be provided by
+
+
+ (A) formal parameters
+
+ (B) reference parameters
+
+ (C) overloaded parameters
+
+ (D) default parameters
+
+(E) I am not attending this question
+
+Q46.
+
+What is the output of the program?
+#include < stdio.h >
+int main()
+{
+char c=48;
+int i, mask=01;
+for(i=1; i<=5; i++){
+
+printf(%c"" c|mask);
+
+mask = mask<<1;
+}
+return 0;
+}
+
+
+ (A) 12400
+
+ (B) 12480
+
+ (C) 12500
+
+ (D) 12556
+
+(E) I am not attending this question
+
+Q47. 357:714::468:?
+
+
+ (A) 579
+
+ (B) 417
+
+ (C) 936
+
+ (D) 864
+
+(E) I am not attending this question
+
+Q48. A walks at 3 km/h and 4 h after his start , b cycles after him at 5km/h.How far from the start does B catch up with A?
+
+
+ (A) 30 km
+
+ (B) 34 km
+
+ (C) 36km
+
+ (D) 38km
+
+(E) I am not attending this question
+
+Q49. The order of the Binary search algorithm is
+
+
+ (A) n
+
+ (B) n^2
+
+ (C) nlog(n)
+
+ (D) log(n)
+
+(E) I am not attending this question
+
+Q50. Find the correctly spell words
+
+
+ (A) Efficient
+
+ (B) Treatmeant
+
+ (C) Beterment
+
+ (D) Employd
+
+(E) I am not attending this question
+

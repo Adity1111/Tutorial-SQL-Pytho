@@ -1,0 +1,83 @@
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+
+
+<p>=========================================================</p>
+ <p>   Before deleting roll no student detail       </p>
+
+ <p>=========================================================</p>
+
+<script>  
+var person ={
+
+ rollno: 101, 
+ name: "Mahesh patil",
+ marks: 50,
+gender: "Male" };
+
+
+console.log("=========================================================");
+
+console.log("Before deleting roll no student detail "        );
+
+console.log("=========================================================");
+
+
+
+document.write("Rollno:   &nbsp;  " +person.rollno  +"<br>"  ,  "Name  is  "  +person.name  +"<br>"   );
+
+document.write("Marks is  :&nbsp;&nbsp; &nbsp; " +person.marks +"<br>"  ,"Gender "   +person.gender  +"<br>" +"<br>"  +"<br>"  +"<br>" ); 
+
+
+console.log("Rollno:     " +person.rollno    ,  "Name  is  "  +person.name     );
+
+console.log("Marks is   " +person.marks   ,"Gender "   +person.gender    ); 
+
+
+
+
+
+
+ delete person.marks; 
+
+ document.write("After deleting  student detail "  +"<br>");
+
+
+
+
+document.write("Rollno:   &nbsp;  " +person.rollno  +"<br>"  ,  "name  is  "  +person.name  +"<br>"   );
+
+document.write("Gender : "   +person.gender  +"<br>" ); 
+
+console.log("=========================================================");
+
+
+console.log("After deleting roll no student detail "  );
+
+console.log("=========================================================");
+
+
+console.log("Rollno:     " +person.rollno    ,  "Name  is  "  +person.name     );
+
+console.log("Gender "   +person.gender  ); 
+
+
+ 
+ document.getElementById("demo").innerHTML 
+ person.rollno + "is"+ person.marks +"";
+
+ console.log("=========================================================");
+
+
+</script>
+
+<p>=========================================================</p>
+
+</html>
+
+ </body>

@@ -1,0 +1,54 @@
+<html>
+
+    <p>=========================================================</p>
+
+<h3>creating JS Object USING Object Parsing</h3>
+
+
+<p>=========================================================</p>
+
+<h3>Product Detail </h3>
+<p>=========================================================</p>
+
+
+
+<script>
+
+    console.log("creating JS Object USING Object Parsing");
+
+    console.log("=========================================================");
+
+  console.log("Product Detail");
+
+    console.log("=========================================================");
+
+
+    const product = {
+
+        showdetails: function () {
+
+            document.write(`Product id : ${this.productid} <br>Product name : ${this.name} <br> Product price : ${this.price}`);
+
+
+            console.log(`Product id : ${this.productid}. `);
+            console.log(`Product name : ${this.name}. `);
+            console.log(`Product price : ${this.price}. `);
+        }
+    };
+
+    const me = Object.create(product)
+    me.productid = '101';
+    me.name = 'Laptop'
+    me.price = '4500'
+
+    me.showdetails();
+    console.log("=========================================================");
+
+
+
+</script>
+<p>=========================================================</p>
+
+
+
+</html>
