@@ -1,0 +1,340 @@
+every rdms  will have own database structure and table .
+
+set of table refering as user database there will have multiple table colum 
+row 
+eg sybase oracle my sql server
+
+oracle software use many thing like premium customer
+microsoft 
+
+for each of database server 
+proper client ip addess and credential
+
+You have security access getting the right fomat 
+
+view ->limited column we use , we use to fetch the data 
+      create update delete
+default-> value to table when user does not enter ,rule doesnt allow
+to insert 
+
+Rules->restrict
+
+stored procedure->that help to maintain data
+
+trigger->get the data how we are expecting
+
+ pubs2 database diagram
+
+er diagram 
+->table names
+->column names 
+->database 
+->keys
+
+DROP TABLE TABLENAME
+
+
+create table employee(emp id char(4),username varchar(50),empage int);
+
+describe employee;
+insert into employee value('1' ,'adity.ahana', '23')
+
+select * from employee
+
+create table p1(
+ Id int NOT NULL,
+Lastname varchar(255),
+Firstname varchar(255),
+
+normalisation->there are no repeated entities in a way of unique data
+
+  SQL
+  
+               DDL
+    DML
+DCL
+
+   TRANSACT- SQL
+
+WE REFER WHERE OBJECT R IN SORTED FORM
+
+RULES &DEFAULT OBJECT
+
+
+
+alter table tablename add column city varchar(20)
+alter table t           add constraint pk_employee primary key (empid)
+
+
+
+
+
+CREATE database testdb
+use testdb
+1 create table employee (id int ,
+empname varchar(50), empage int)
+
+2 create table with key 
+create table employee1 (id int NOT NULL,
+empname varchar(50),
+empage int , primary key(id)
+);
+sp_help employee1
+
+3.  create table with composite key 
+ create table employee2 (emp id char(4) not null,
+empname varchar(50) not null,
+empage int , 
+primary key(emp id,empname))
+
+3 a
+create table statement without specifying null for primary key column
+create table employee3a
+
+...create employee table around 10 to 15 column ,manager(Y,L,R,O)
+create required index
+ create a dept table 
+insert into statement
+creating training table 
+create salary table
+UNIQUE KEY
+foreign 
+rules
+default
+ autoincrement
+constraint
+dates
+
+
+
+
+create table employee  (
+id int ,
+lastname varchar(255) NOT NULL ,
+first  varchar(255),
+Age int 
+);
+describe employee
+Alter table employee add unique (id);
+insert into employee values( null ,'shiv' ,null, null)
+
+select * from employee
+
+mysql unique key vs primary key
+    index    (id) 
+Alter table orders drop foreign key lab1.orders_ibfk_1;
+   
+CREATE TABLE Person1 (
+    ID int IDENTITY(1,1) NOT NULL,
+    LastName varchar(255) NOT NULL  ,
+    FirstName varchar(255) NOT NULL,
+    Age int primary key( id)
+);
+describe tablename
+
+ALTER TABLE tablename ADD PRIMARY key(emp no)
+
+create employee_tab with new column and other column similar to employee
+insert into selecr required column and load data
+rename employee table to employee_old
+rename employee_tabl to employee
+create all index what is there on employee_old table
+create all privilages back to employee
+drop employee_old table 
+recompile all objects that refer to employee table 
+
+Million of records  //sql loader ,bcp
+ALTER TABLE     customer     ADD CITY VARCHAR(20);
+ALTER  TABLE     customer    MODIFY CITY CHAR(20);
+ALTER TABLE  customer  DROP city;
+
+
+practice on sql server
+
+
+CREATE DATABASE employee;
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+create table employee ( id int ,
+empname varchar(50), empage int)
+
+DROP table Person1;
+CREATE TABLE Person1 (
+    ID int IDENTITY(1,1) NOT NULL,
+    LastName varchar(255) NOT NULL  ,
+    FirstName varchar(255) NOT NULL,
+    Age int primary key( id)
+);
+create table employee1 (id int NOT NULL,
+empname varchar(50),
+empage int , primary key(id)
+);
+
+SELECT * from  Person1;
+
+INSERT INTO Person1 (ID,LastName,FirstName,Age)
+VALUES('21','Raj' ,'aditya' , '22' );
+
+//alter the column
+ALTER TABLE Person1
+ALTER COLUMN Age int  NOT NULL;
+
+// add the extra colum
+ALTER TABLE    Customers 
+ADD Mobile_no VARCHAR(20) NULL;  
+
+
+ ///CREATE TABLE SALARY  AS SELECT  ID, LastName FROM Person1;
+
+   CREATE TABLE Customers (
+    ID int NOT NULL,
+    CName varchar(255) NOT NULL,
+    username varchar(255),
+    Age int,
+    UNIQUE (ID)
+);
+
+INSERT INTO Customers (ID,CName,username,Age)
+VALUES('22','Raj' ,'aditya.raj' , '22' );
+
+->rules
+
+   create two table one department and other employee
+select * from database2.employee;
+
+select  a.deptname,a.deptId,b.FirstNAMe,b.empid  from department,a.employee b where a =b.deptName;
+
+
+select department.DeptName,employee.FirstNAme
+from department
+INNER JOIN employee                                                              //left join
+On department.deptname =employee.deptName 
+
+
+
+
+select * from employee
+
+select e_status,count(e_empno) from employee group by e_status
+group by   /  having  /  order
+ 
+
+select * from employee
+group by e_status 
+having e_salary>5000
+order by e_emp
+
+
+select e_empno as EMPLOYEE_NUMBER from employee
+
+update    employee set salary=14000 where salary=15000;
+join / inner join
+
+
+//procedure
+
+//trigger
+//begin tran
+
+///commit rollback
+
+
+HTML
+CSS
+......JavaScript
+MEAN/MERN Stack
+......SQL   
+
+........JavaScript
+jQuery
+.NET
+ASP.NET
+.....MS SQL Server
+ select * from employee where e_firstname like
+
+use lab2
+
+delimitter $$
+create procedure  'newproce'()
+reads sql data
+BEGIN
+select * from employee;
+END$$
+delimiter ;
+
+call newproce();
+
+DELIMITER$$
+cre              'selectemp2'(IN salary int,out scount int)
+reads sql data
+BEGIN
+select * from employtee where e_salary=salary;
+select count(e_salary) into scount from Employee where e_salary=salary;
+END$$
+delimiter ;
+
+
+call selecttemp2 (5000,@xcount);
+select @xcount
+
+
+
+create proce main()
+  begin
+
+
+
+
+E_manager char(),
+E_status VARCHAR(1)
+);
+CREATE TRIGGER before employee_update
+ BEFORE UPDATE ON employee
+FOR EACH ROW
+INSERT INTO employee_audit
+SET action='update' ,
+ E_EMPNO=OLD.E_EMPNO,
+ e_lastname=OLD.e_lastname,
+changedat =NOW();
+
+
+create table 
+id 
+timestamp
+
+insert into data(id,timestamp,data1,data2) values(1,sysdate(),'aa',10.2);
+
+select * from data
+select * from data_log order by timestamp desc
+
+data_archive
+data_log_archive
+
+update data set data1='222' where id =1;
+
+delete from data where id =1
+delete from
+
+create data_log(
+   action varchar(30),
+id int,
+timestamp TIMESTAMP,
+data1 VARCHAR(255) NOT NULL,
+data2  DECIMAL(5,2) NOT NULL
+);
+PROCEDURE -
+TRIGGER -
+CASE ,EXIST ,
+//SUB QUERY
+
+
+
+
+
+
+  

@@ -1,0 +1,84 @@
+BODS AS A SOFWARE 
+
+WHAT IS DATA WAREHOUSE ?
+WHAT IS ETL?
+WHAT IS SAP BODS?
+MINIMAL OVERVIEW OF SAP BODS?
+
+BODS provides a single environment for development,runtime,management,
+
+
+DW its source where lot of data comes used for analytical purpose.
+E T L  EXTRACT TRANSFORM AND LOAD
+
+
+tutorialand example.com
+
+what is SAP BODS
+development->from source getting info converted into format that is useful for client
+runtime->to excute at what time
+managementt organising the way of execution
+
+is a graphical user interface developed information to built complex data
+data inegration
+
+dat quility
+  
+data profiling
+
+BOD ->business object dATA service
+
+data migration ->take the infromation from one source put it into data source
+
+Data warehousing ->easy data analysis and reporting
+
+B I -> applied ro analyze data perform function.
+  It require to do coding and 
+
+concept of reporting related to ETL tools->which resource , how much sales they made,how much 
+revenue they are making  its report is best when it comes from ETL
+  Data Service Components
+
+Applying query  
+The idea 
+
+seperate solution   various data sources
+for reporting which tool is using like SAP ,
+tableau ->extract information from datawarehousing it goes to frequent 
+
+BODS IS VERY BEST ETL TOOL
+
+DESIGNER   WHAT U MADE lime code done in bods software SIT ON RESPOSITORY.
+
+MUTIPLE USER DEVELOP MULTIPLE OBJECT AT SAME TIMES.
+
+  -  DESIGNER  - you are basically using this for ETL. its a software application 
+for developing console.
+
+ ->REPOSITORY  LOCAL MEANS DOING IN OWN SYSTEM  . 
+   CENTRAL ANYONE CAN USE AND DOWNLOAD AND USE IT
+ where u kept evrything. central management can also develop but its easy to be done by 
+designer
+
+Job server - > everyone done , its like machine job we are developing run from  .  you r doing in local r  it must be point to 
+job server. whatever u done or run from job server.whatever job u want to execute is done through job server
+
+   - > Engine  - its like a way who are running the job server
+  
+
+   Access server -. pass message b/w w app and data service job server.  REal time
+central management-   used for scheduling job and user management
+  whatever work is doing can be happened through central management console.
+web interface whatever query u run past .
+  
+  SAP BODS Architecture
+
+     
+
+  Object
+object means whatever present inside designer. 
+  properties   / options
+types of object  -  single use object  /   reusable object
+
+job
+workflow 

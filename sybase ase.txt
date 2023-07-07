@@ -1,0 +1,143 @@
+FULL BACKUP MON tues corrupted
+
+COMPRESSION NUMBE
+
+
+sp_configure"parameter",value
+
+sybase parameter needs to be tuned
+ after install.
+
+.Max memory
+. lock entries
+
+
+Sybase DB installed in integrated and standone
+
+sybase db standalone installation
+  sybase adaptive server enterprise suite 15.7
+purchase License
+
+
+how to enable/disable db logging
+
+sytax :sp_dboption[dbname,optname,{true\false}
+'trunc log on chkp','false' 
+'full logging for all' 'true'
+
+create a job and a schedule for each database you want to backup
+
+DBACOCKPIT->CENTRAL
+
+
+AUTO THRESHOLD LOG BACKUP SETUP
+
+DEVICE AND DB EXPANSION POLICY SETUP
+
+
+
+
+sp_locklogin 'sa', 'unlock'
+
+LOad 
+SET 
+
+SYBASE DB RESTORE/RECOVERY
+
+LOAD BACKUP
+
+TRANSACTIONAL BACKUP
+
+sybase db patch upgrade
+
+sons  intial backup
+
+determine current version of database and driver
+
+
+SYbase Db patch updgrade using jdbc /od
+
+
+Sybase DR setup
+
+   central system installation'
+
+   Resouce files
+
+cd as
+
+ls -l
+ 
+cd .../install
+
+ls -l
+
+vl -l
+
+-l /opti
+
+
+isql -Usa -S ASE2
+
+sp_who
+
+use master
+
+
+
+sybase sql quite Ase-16.0
+    
+          
+SYB_BACKUP...sp_who
+
+
+
+master ->
+
+
+showserver
+
+dataserver /backup
+ps
+
+dump database model to '/tmp/model.dmp'
+
+Swap space 
+
+all calculation happen in tempdb /
+restart the sybase tempdb is recreated
+
+   Devices
+-master
+data have to be sepearted and log is separated .. 
+
+disaster happened rare / log happened bad /
+mirroring the log duplicate of transaction 
+
+ASE Port numbering 
+
+ls -l /
+
+Memory and cache configuration
+
+static parameter  in synbase  //  need to start
+dynamic parameter  / not to stop and restart  
+
+sp_configure memory
+
+ls -l *cfg
+
+ls -lt
+
+User Environment 
+
+Lock Manager
+Security related 
+java services
+
+connecting again
+sp configure "user configuration",30
+ data cache for table  and rows 
+procedure cache 
+
+
